@@ -3,4 +3,5 @@ let fruits = []
 for (let checkbox of node_list) {
   fruits.push(checkbox.outerText)
 }
-fruits.join("\n")
+console.log(fruits.join("\n"))
+console.log(fruits.length)
